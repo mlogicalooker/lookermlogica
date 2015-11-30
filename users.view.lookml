@@ -44,7 +44,7 @@
     sql: ${TABLE}.zip
 
   - dimension: full_name
-    sql: ${TABLE}.first_name + ' ' + ${TABLE}.last_name
+    sql: CONCAT_WS(" ", ${TABLE}.first_name, ${TABLE}.last_name)
 
   - measure: count
     type: count

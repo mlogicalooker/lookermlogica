@@ -22,4 +22,3 @@
   - measure: count
     type: count
     drill_fields: [id, users.last_name, users.first_name, users.id, order_items.count]
-
