@@ -32,7 +32,7 @@
 
   - measure: count
     type: count
-    drill_fields: [users.id, users.last_name,users.city, users.state]
+    drill_fields: [products.id, products.item_name, products.retail_price, products.category, products.brand]
     
   - measure: total_sale
     type: sum
